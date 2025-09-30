@@ -1,16 +1,21 @@
 (a) BASIC I/O OPERATIONS – JAIGANESH.cpp
 
-AIM
+AIM : 
 To perform basic input and output operations in C++.
 
-APPARATUS
-PC/Laptop with C++ compiler, text editor/IDE, terminal/console.
+APPARATUS : 
+Laptop with C++ compiler(MinGW), Text Editor / IDE (VS Code), Terminal/Console (Command Prompt).
 
-THEORY
-C++ uses input and output streams for data handling. cin is used for input and cout is used for output. getline() can be used for line-based input.
+THEORY : 
+In C++, input and output are managed through the concept of streams. A stream is a sequence of bytes that represents a flow of data. The two most commonly used streams are:
 
-ALGORITHM
+cin (standard input stream) → used to accept data from the user.
 
+cout (standard output stream) → used to display data to the user.
+
+Additionally, getline() is used when input contains spaces, allowing the program to read an entire line of text. These operations are made available through the header file <iostream>. Mastering basic I/O is essential, as it forms the foundation for user interaction in any C++ program.
+
+ALGORITHM : 
 Start the program and include necessary header files.
 
 Declare variables for storing input.
@@ -23,22 +28,33 @@ Display the entered input using output statement.
 
 Stop the program.
 
-CONCLUSION
+CONCLUSION :
 Basic input and output operations are successfully performed in C++.
 
 (b) BASIC CALCULATOR – CALCULATOR.cpp
 
-AIM
+AIM :
 To implement a basic calculator program in C++ to perform arithmetic operations.
 
-APPARATUS
-PC/Laptop with C++ compiler, text editor/IDE, terminal/console.
+APPARATUS :
+Laptop with C++ compiler (MinGW), Text Editor / IDE (VS Code), Terminal / Console (Command Prompt).
 
-THEORY
-C++ provides arithmetic operators such as addition, subtraction, multiplication, division, and modulus. A control structure like if-else or switch is used for operation selection.
+THEORY :
+A calculator program demonstrates the use of arithmetic operators and control structures in C++. The arithmetic operators include:
 
-ALGORITHM
++ (addition)
 
+- (subtraction)
+
+* (multiplication)
+
+/ (division)
+
+% (modulus, for integers)
+
+The program accepts two operands and an operator, then uses decision-making constructs like if-else or switch-case to determine the operation to perform. Proper error handling (such as checking division by zero) ensures program reliability. This experiment helps understand the integration of operators, variables, and control flow to solve computational problems interactively.
+
+ALGORITHM :
 Start the program and include necessary header files.
 
 Declare variables for operands and operator.
@@ -55,5 +71,7 @@ Display the result.
 
 Stop the program.
 
-CONCLUSION
+CONCLUSION :
+A basic calculator program is implemented successfully using C++.
+
 A basic calculator program is implemented successfully using C++.
